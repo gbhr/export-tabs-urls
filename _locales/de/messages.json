@@ -1,18 +1,18 @@
 {
     "appButtonDesc": {
-        "message": "Export Tabs URLs"
+        "message": "Tabs-URLs exportieren"
     },
     "appName": {
-        "message": "Export Tabs URLs"
+        "message": "Tab-URLs-Export"
     },
     "appDesc": {
-        "message": "Speicher eine Liste aller offenen Tabs als Textdatei."
+        "message": "Exportiere alle offenen Tabs als Textdatei"
     },
     "optionsFormatCustom": {
         "message": "Benutzerdefiniertes Format"
     },
     "optionsFormatCustomPlaceholder": {
-        "message": "keiner"
+        "message": "Standard"
     },
     "optionsButtonResetFormat": {
         "message": "Zurücksetzen"
@@ -21,43 +21,43 @@
         "message": "Zurücksetzen"
     },
     "optionsFormatCustomDescription": {
-        "message": "<p>Sie können ein benutzerdefiniertes Format anstelle des Standardformats definieren.</p><p>Sie können eine beliebige Zeichenfolge und die folgenden speziellen Blöcke verwenden:</p><ul><li><code>{title}</code>: title of a tab</li><li><code>{window-id}</code>: ID of the window containing a tab</li><li><code>{url}</code>: URL of a tab</li><li><code>\\r\\n</code>: new line</li></ul><p>Beispiel: <code>[{title}]({url})\\r\\n</code></p>"
+        "message": "<p>Anstelle des Standardformats kann ein eigenes Format für den Titel festgelegt werden -</p><p>Neben den folgenden Spezialblöcken, die automatisch entsprechend ersetzt werden, können beliebige Zeichenfolgen eingesetzt werden:</p><ul><li><code>{title}</code>: Titel des Tabs</li><li><code>{window-id}</code>: ID des Fensters des Tabs</li><li><code>{url}</code>: URL</li><li><code>\\r\\n</code>: Neue Zeile</li></ul><p>Beispiele: <code>[{title}]({url})\\r\\n</code></p>"
     },
     "optionsIgnoreNonHTTP": {
-        "message": "Ignoriere nicht-HTTP(S) URLs"
+        "message": "nicht-HTTP(S) URLs ignorieren"
     },
     "optionsIgnoreNonHTTPDescription": {
-        "message": "<p>Diese Einstellung verhindert Export Tabs URLs vom Anzeigen von Tabs, dessen URL von <code>http://</code> or <code>https://</code>. abweicht.</p>"
+        "message": "<p>Nicht-HTTP(S)-URLs  werden weder angezeigt noch beim Export beachtet</p>"
     },
     "optionsIgnorePinned": {
-        "message": "Ignoriere angeheftete Tabs"
+        "message": "Angeheftete Tabs Ignorieren"
     },
     "optionsIgnorePinnedDescription": {
-        "message": "<p> Diese Einstellung verhindert Export Tabs URLs vom Anzeigen von angehefteten Tabs.</p>"
+        "message": "<p>Angeheftete Tabs werden weder angezeigt noch beim Export beachtet</p>"
     },
     "optionsFilterTabs": {
-        "message": "Aktiviere das Filtern von Tabs"
+        "message": "Tab-Filter"
     },
     "optionsFilterTabsDescription": {
-        "message": "<p>Diese Einstellung fügt Export Tabs URLs eine Filterfunktion hinzu.</p><p>Sowohl Titel als URL werden durchsucht (auch ausgeblendete).</p><p>Sie können <a href=\"https://developer.mozilla.org/de/docs/Web/JavaScript/Guide/Regular_Expressions#Verwendung_von_speziellen_Zeichen\">Reguläre Ausdrücke (RegEx) verwenden</a>.</p><p>Beispiel:</p><ul><li><code>fe?ather</code>: passt zu father und feather</li><li><code>(stackoverflow|github).com</code>: passt zu  stackoverflow.com und github.com</li></ul>"
+        "message": "<p>Es können sowohl für Titel als auch auch URL eines Tabs Filterregeln festgelegt werden,  wodurch sie  weder angezeigt noch beim Export beachtet werden. </p><p>Es können <a href=\"https://developer.mozilla.org/de/docs/Web/JavaScript/Guide/Regular_Expressions#Verwendung_von_speziellen_Zeichen\">Reguläre Ausdrücke (RegEx) verwendet werden</a>.</p><p>Beispielel:</p><ul><li><code>fe?ather</code>: Matched father und feather</li><li><code>(stackoverflow|github).com</code>: Matched stackoverflow.com und github.com</li></ul>"
     },
     "popupFilterTabsPlaceholder": {
-        "message": "Filter Tabs"
+        "message": "Tabs filtern"
     },
     "optionsCustomHeader": {
         "message": "Benutzerdefinierter Header"
     },
     "optionsCustomHeaderPlaceholder": {
-        "message": "keiner"
+        "message": "Standard"
     },
     "optionsCustomHeaderDescription": {
-        "message": "<p>Sie können hier einen benutzerdefinierten Header eintragen.</p><p>Sie können eine beliebige Zeichenfolge und die folgenden speziellen Blöcke verwenden:</p><ul><li><code>{num-tabs}</code>: Anzahl von Tabs</li><li><code>\\r\\n</code>: new line</li></ul><p>Beispiel: <code>From Export Tabs URLs (# links: {num-tabs})</code></p>"
+        "message": "<p>Anstelle des Standardformats kann ein eigenes Format für den Header festgelegt werden. </p><p>Neben den folgenden Spezialblöcken, die automatisch entsprechend ersetzt werden, können beliebige Zeichenfolgen eingesetzt werden:</p><ul><li><code>{num-tabs}</code>: Anzahl der Tabs</li><li><code>\\r\\n</code>: Neue Zeile</li></ul><p>Beispiele: <code>Exportierte Tabs: (# links: {num-tabs})</code></p>"
     },
     "popupButtonCopy": {
-        "message": "In die Zwischenablage kopieren"
+        "message": "Kopieren"
     },
     "popupButtonExport": {
-        "message": "Als Datei exportieren"
+        "message": "Exportieren"
     },
     "popupLimitWindow": {
         "message": "Auf das aktuelle Fenster begrenzen"
@@ -66,12 +66,12 @@
         "message": "Benutzerdefiniertes Format"
     },
     "popupLabelFormatTitles": {
-        "message": "Titel einschließen"
+        "message": "Titel hinzufügen"
     },
     "copiedToClipboard": {
-        "message": "Die Liste wurde erfolgreich in die Zwischenablagekopiert."
+        "message": "Die Liste wurde erfolgreich kopiert."
     },
     "notCopiedToClipboard": {
-        "message": "Beim Speichern in die Zwischenablage ist ein Fehler aufgetreten."
+        "message": "Beim Speichern ist ein Fehler aufgetreten."
     }
 }
